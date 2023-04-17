@@ -94,13 +94,13 @@ canvas {
     box-shadow: 5px 5px 20px 0px rgba(0,0,0,1);
 }
 .spotify{
-	position: absolute;
-    margin-top: 15px;
-    right: 10px;
-    width: 70%;
-    height: 100%;
-	margin-left: 10px;
-	z-index: 90;
+position: absolute;
+margin-top: 10px;
+right: 10px;
+width: 70%;
+height: 90%;
+margin-left: 10px;
+z-index: 90;
 }
 
 @media only screen and (max-width: 600px) {
