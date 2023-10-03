@@ -106,9 +106,16 @@ canvas {
 @media only screen and (max-width: 600px) {
 	.spotify {
 		right: 10px;
-		height: 25vh;
+		height: 20vh;
 		bottom: 1em;
 		width: 90vw;
+	}
+	.playerBG .songListBTN .songListBTN {
+	  	display: none;
+		
+	}
+	.channelItem {
+		background-position: center;
 	}
   }
 
