@@ -1,75 +1,70 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>4AM SAD RAP - Spotify Playlist Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
 </head>
 
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html>
 <body>
-	
-<div>
-<div class="radioLanding">
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="channelItem" style="background-image: url(https://images.unsplash.com/photo-1542681575-352258e0c854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);"></div>
-				<div class="channelContainer">
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-	<div id="particle-container"></div>
-	<div class="vignetteOverlay"></div>
-	<div class="channelBox">
-		<img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be" height="200" width="200" class="logo">
-		<h2 class="channelTitle">4 AM Sad Rap.</h2>
-		<p class="channelText">Welcome to the 4 AM Sad Rap radio. This playlist contains the smoothest rap tracks, perfect to help you heal through music. Listen to the 4 AM Sad Rap Spotify playlist.</p>
-		<div class="socials">
-        <a href="https://www.instagram.com/4amsadrap/" target="_blank" class="fa fa-instagram"></a>
-        <a href="https://open.spotify.com/playlist/2HGo125ihDyIh5UfSJ8FhC?si=96e9edc3bc044f73" target="_blank" class="fa fa-spotify"></a>
-        <a href="https://www.reddit.com/r/4amsadrap/" target="_blank" class="fa fa-reddit"></a>
+  <div class="playlist-container">
+    <div class="landing-section">
+      <div id="carousel" class="playlist-carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="channel-item"></div>
+            <div class="channel-container"></div>
+          </div>
+        </div>
+      </div>
+      <div id="particle-container"></div>
+      <div class="vignette-overlay"></div>
+      <div class="channel-box">
+        <img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be" height="200" width="200" class="playlist-logo">
+        <h2 class="playlist-title">4 AM Sad Rap.</h2>
+        <p class="playlist-description">Welcome to the 4 AM Sad Rap radio. This playlist contains the smoothest rap tracks, perfect to help you heal through music. Listen to the 4 AM Sad Rap Spotify playlist.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/4amsadrap/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://open.spotify.com/playlist/2HGo125ihDyIh5UfSJ8FhC?si=96e9edc3bc044f73" target="_blank" class="fa fa-spotify"></a>
+          <a href="https://www.reddit.com/r/4amsadrap/" target="_blank" class="fa fa-reddit"></a>
+        </div>
       </div>
     </div>
-	</div>
-	<div class="recordBoxContainer">
-		<iframe src="https://open.spotify.com/embed/playlist/2HGo125ihDyIh5UfSJ8FhC" width="100%" height="100%" frameBorder="0" allowtransparency="true" allow="encrypted-media" class="spotify"></iframe>
-		<div class="playerBG"></div>
-		<div class="songListBTN">
-			<span class="circleBTN circleBTN1"></span>
-			<span class="circleBTN circleBTN2"></span>
-			<span class="circleBTN circleBTN3"></span>
-			<span class="circleBTN circleBTN4"></span>
-			<span class="circleBTN circleBTN5"></span>
-			<span class="circleBTN circleBTN6"></span>
-			<span class="circleBTN circleBTN7"></span>
-			<span class="circleBTN circleBTN8"></span>
-			<span class="circleBTN circleBTN9"></span>
-		</div>
-	</div>
-	<div class="recordBox paused">
-		<div class="albumBox">
-			<img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be">
-		</div>
-	</div>
+    <div class="player-section">
+      <div class="record-container">
+        <iframe src="https://open.spotify.com/embed/playlist/2HGo125ihDyIh5UfSJ8FhC" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-iframe"></iframe>
+        <div class="player-background"></div>
+        <div class="song-list-button">
+          <span class="circle-button circle-button1"></span>
+          <span class="circle-button circle-button2"></span>
+          <span class="circle-button circle-button3"></span>
+          <span class="circle-button circle-button4"></span>
+          <span class="circle-button circle-button5"></span>
+          <span class="circle-button circle-button6"></span>
+          <span class="circle-button circle-button7"></span>
+          <span class="circle-button circle-button8"></span>
+          <span class="circle-button circle-button9"></span>
+        </div>
+      </div>
+      <div class="record-box paused">
+        <div class="album-box">
+          <img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be">
+        </div>
+      </div>
+    </div>
+  </div>
 
-</div>
-<!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js'></script>
-<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+  <script src="./script.js"></script>
 </body>
 </html>
