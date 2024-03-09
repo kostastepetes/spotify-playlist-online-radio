@@ -1,7 +1,6 @@
 # Spotify Playlist Online Radio
-Website that works as an online radio with an embedded Spotify Playlist. Made with the library particles.js
+3D Website that works as an online radio with an embedded Spotify Playlist. Made with GSAP, ScrollTrigger and particles.js
 
-Live Demo: https://codepen.io/kostastepetes/pen/xxddEqg
-
-UI Screenshot: <br>
+UI Screenshots: <br>
+<img src="spotify_landing_page_screenshot.png" alt="Screenshot" width="900" height="400">
 <img src="spotify_playlist_website_screenshot.png" alt="Screenshot" width="900" height="400">
