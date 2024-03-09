@@ -1,70 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>4AM SAD RAP - Spotify Playlist Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 AM Sad Rap</title>
+    <link rel="stylesheet" href="landing_style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 </head>
-
 <body>
-  <div class="playlist-container">
-    <div class="landing-section">
-      <div id="carousel" class="playlist-carousel" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="channel-item"></div>
-            <div class="channel-container"></div>
-          </div>
+    <nav>
+        <div class="links-1">
+            <a href="https://www.reddit.com/r/4amsadrap/" target="_blank">Blog</a>
         </div>
-      </div>
-      <div id="particle-container"></div>
-      <div class="vignette-overlay"></div>
-      <div class="channel-box">
-        <img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be" height="200" width="200" class="playlist-logo">
-        <h2 class="playlist-title">4 AM Sad Rap.</h2>
-        <p class="playlist-description">Welcome to the 4 AM Sad Rap radio. This playlist contains the smoothest rap tracks, perfect to help you heal through music. Listen to the 4 AM Sad Rap Spotify playlist.</p>
-        <div class="social-links">
-          <a href="https://www.instagram.com/4amsadrap/" target="_blank" class="fa fa-instagram"></a>
-          <a href="https://open.spotify.com/playlist/2HGo125ihDyIh5UfSJ8FhC?si=96e9edc3bc044f73" target="_blank" class="fa fa-spotify"></a>
-          <a href="https://www.reddit.com/r/4amsadrap/" target="_blank" class="fa fa-reddit"></a>
+        <div class="logo">
+            <a href="#">
+                4 AM Sad Rap
+            </a>
         </div>
-      </div>
+        <div class="links-2">
+            <a href="playlist.html" target="_blank">Radio</a>
+        </div>
+    </nav>
+    <footer>
+        <a href="https://www.instagram.com/4amsadrap/" target="_blank">Instagram</a>
+        <a href="https://open.spotify.com/playlist/2HGo125ihDyIh5UfSJ8FhC?si=96e9edc3bc044f73&nd=1&dlsi=e9c283012feb479d" target="_blank">SPOTIFY</a>
+    </footer>
+    <div class="container">
+        <div class="active-slide">
+            <img src="./assets/pic1.png" alt="">
+            <img src="./assets/pic2.png" alt="">
+            <img src="./assets/pic3.png" alt="">
+            <img src="./assets/pic4.png" alt="">
+            <img src="./assets/pic5.png" alt="">
+            <img src="./assets/pic6.png" alt="">
+            <img src="./assets/pic7.png" alt="">
+            <img src="./assets/pic8.png" alt="">
+            <img src="./assets/pic9.png" alt="">
+            <img src="./assets/pic10.png" alt="">
+        </div>
+        <div class="slider">
+            <div class="slide" id="slide-1">
+                <div class="slide-copy">
+                    <p> Our first sample </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic1.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-2">
+                <div class="slide-copy">
+                    <p> Rap Music 4 Bad Days</p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic2.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-3">
+                <div class="slide-copy">
+                    <p> Embrace Imperfection </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic3.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-4">
+                <div class="slide-copy">
+                    <p> Better Days Ahead </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic4.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-5">
+                <div class="slide-copy">
+                    <p> Creativity > Therapy </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic5.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-6">
+                <div class="slide-copy">
+                    <p> Anxiety Lies </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic6.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-7">
+                <div class="slide-copy">
+                    <p> We made it this far kid </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic7.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-8">
+                <div class="slide-copy">
+                    <p> It will never go away completely and it's okay</p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic8.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-9">
+                <div class="slide-copy">
+                    <p> Growing at our own speed </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic9.png" alt="">
+                </div>
+            </div>
+            <div class="slide" id="slide-10">
+                <div class="slide-copy">
+                    <p> Design, Create, Repeat </p>
+                    <p id="index">( ES 11 33 66 77F )</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/pic10.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="player-section">
-      <div class="record-container">
-        <iframe src="https://open.spotify.com/embed/playlist/2HGo125ihDyIh5UfSJ8FhC?utm_source=generator" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-iframe"></iframe>
-        <div class="player-background"></div>
-        <div class="song-list-button">
-          <span class="circle-button circle-button1"></span>
-          <span class="circle-button circle-button2"></span>
-          <span class="circle-button circle-button3"></span>
-          <span class="circle-button circle-button4"></span>
-          <span class="circle-button circle-button5"></span>
-          <span class="circle-button circle-button6"></span>
-          <span class="circle-button circle-button7"></span>
-          <span class="circle-button circle-button8"></span>
-          <span class="circle-button circle-button9"></span>
-        </div>
-      </div>
-      <div class="record-box paused">
-        <div class="album-box">
-          <img src="https://styles.redditmedia.com/t5_2x8t8r/styles/communityIcon_aiekdz2zisd51.png?width=256&s=473a0dea9b9ebf6e496e3e6a79a74bdd97d8d5be">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js'></script>
-  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-  <script src="./script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="scroll_script.js"></script>
 </body>
 </html>
